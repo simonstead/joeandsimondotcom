@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  padding: 1em 2em;
+  font: 14px "Poiret One", Helvetica, Arial, sans-serif;
+  background-image: url("../img/guitar.jpg");
+  background-repeat: no-repeat;
+  background-position: left; }
+
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1em; }
 
 a {
   color: #00B7FF; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+    padding: 0.5em; } }
 
 /*# sourceMappingURL=style.css.map */
